@@ -3,7 +3,7 @@
     "python.testing.unittestArgs": [
         "-v",
         "-s",
-        "./cs321",
+        "./immigration",
         "-p",
         "*_test.py"
     ],
