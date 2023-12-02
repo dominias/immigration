@@ -29,5 +29,5 @@ jobs:
           distribution: "temurin"
           cache: maven
 
-      - name: Build with Maven
+      - name: Build with Maven for Test
         run: mvn -B package --file immigration/pom.xml
