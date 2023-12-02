@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.immigration.UnitTests" time="0.058" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\William Ridenhour\Documents\GitHub\immigration\immigration\target\test-classes;C:\Users\William Ridenhour\.m2\repository\org\openjfx\javafx-controls\13\javafx-controls-13.jar;C:\Users\William Ridenhour\.m2\repository\org\openjfx\javafx-graphics\13\javafx-graphics-13.jar;C:\Users\William Ridenhour\.m2\repository\org\openjfx\javafx-base\13\javafx-base-13.jar;C:\Users\William Ridenhour\.m2\repository\org\openjfx\javafx-fxml\13\javafx-fxml-13.jar;C:\Users\William Ridenhour\.m2\repository\junit\junit\4.8.1\junit-4.8.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\William Ridenhour\AppData\Local\Temp\surefire11475158467455332431 2023-12-01T20-04-40_503-jvmRun1 surefire-20231201200440822_1tmp surefire_0-20231201200440822_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\William Ridenhour\Documents\GitHub\immigration\immigration\target\test-classes;C:\Users\William Ridenhour\.m2\repository\org\openjfx\javafx-controls\13\javafx-controls-13.jar;C:\Users\William Ridenhour\.m2\repository\org\openjfx\javafx-graphics\13\javafx-graphics-13.jar;C:\Users\William Ridenhour\.m2\repository\org\openjfx\javafx-base\13\javafx-base-13.jar;C:\Users\William Ridenhour\.m2\repository\org\openjfx\javafx-fxml\13\javafx-fxml-13.jar;C:\Users\William Ridenhour\.m2\repository\junit\junit\4.8.1\junit-4.8.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\William Ridenhour"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="jdk.module.path" value="C:\Users\William Ridenhour\Documents\GitHub\immigration\immigration\target\classes;C:\Users\William Ridenhour\.m2\repository\org\openjfx\javafx-controls\13\javafx-controls-13-win.jar;C:\Users\William Ridenhour\.m2\repository\org\openjfx\javafx-graphics\13\javafx-graphics-13-win.jar;C:\Users\William Ridenhour\.m2\repository\org\openjfx\javafx-base\13\javafx-base-13-win.jar;C:\Users\William Ridenhour\.m2\repository\org\openjfx\javafx-fxml\13\javafx-fxml-13-win.jar"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\William Ridenhour\Documents\GitHub\immigration\immigration"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\William Ridenhour\.m2\repository\org\apache\maven\surefire\surefire-booter\3.2.2\surefire-booter-3.2.2.jar;C:\Users\William Ridenhour\.m2\repository\org\apache\maven\surefire\surefire-api\3.2.2\surefire-api-3.2.2.jar;C:\Users\William Ridenhour\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.2.2\surefire-logger-api-3.2.2.jar;C:\Users\William Ridenhour\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.2.2\surefire-shared-utils-3.2.2.jar;C:\Users\William Ridenhour\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.2.2\surefire-extensions-spi-3.2.2.jar;C:\Users\William Ridenhour\Documents\GitHub\immigration\immigration\target\test-classes;C:\Users\William Ridenhour\.m2\repository\org\openjfx\javafx-controls\13\javafx-controls-13.jar;C:\Users\William Ridenhour\.m2\repository\org\openjfx\javafx-graphics\13\javafx-graphics-13.jar;C:\Users\William Ridenhour\.m2\repository\org\openjfx\javafx-base\13\javafx-base-13.jar;C:\Users\William Ridenhour\.m2\repository\org\openjfx\javafx-fxml\13\javafx-fxml-13.jar;C:\Users\William Ridenhour\.m2\repository\junit\junit\4.8.1\junit-4.8.1.jar;C:\Users\William Ridenhour\.m2\repository\org\apache\maven\surefire\surefire-junit4\3.2.2\surefire-junit4-3.2.2.jar;C:\Users\William Ridenhour\.m2\repository\org\apache\maven\surefire\common-java5\3.2.2\common-java5-3.2.2.jar;C:\Users\William Ridenhour\.m2\repository\org\apache\maven\surefire\common-junit3\3.2.2\common-junit3-3.2.2.jar;C:\Users\William Ridenhour\.m2\repository\org\apache\maven\surefire\common-junit4\3.2.2\common-junit4-3.2.2.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.9+11-LTS-201"/>
+    <property name="user.name" value="William Ridenhour"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\William Ridenhour\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\WILLIA~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.9"/>
+    <property name="user.dir" value="C:\Users\William Ridenhour\Documents\GitHub\immigration\immigration"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git LFS;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\Program Files\Java\jdk-19\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\apache-maven-3.9.6\bin;C:\Program Files\Java\jdk-17\bin;C:\Users\William Ridenhour\AppData\Local\Microsoft\WindowsApps;C:\Users\William Ridenhour\AppData\Local\GitHubDesktop\bin;C:\Users\William Ridenhour\AppData\Local\Microsoft\WindowsApps;C:\Users\William Ridenhour\AppData\Roaming\npm;C:\Users\William Ridenhour\AppData\Local\Programs\Microsoft VS Code\bin;C:\anaconda3;C:\Users\William Ridenhour\.dotnet\tools;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.9+11-LTS-201"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="CreateApprovalWorkflowItemTest" classname="com.immigration.UnitTests" time="0.026">
+    <system-out><![CDATA[Divorce Report Object: {Username: a, Spouses Name: b, Current Status: c}
+ has been added to workflow.
+Divorce Report Object: {Username: d, Spouses Name: e, Current Status: f}
+ has been added to workflow.
+Divorce Report Object: {Username: g, Spouses Name: h, Current Status: i}
+ has been added to workflow.
+Divorce Report Object: {Username: a, Spouses Name: b, Current Status: c}
+ has been removed from workflow.
+Divorce Report Object: {Username: d, Spouses Name: e, Current Status: f}
+ has been removed from workflow.
+Divorce Report Object: {Username: g, Spouses Name: h, Current Status: i}
+ has been removed from workflow.
+]]></system-out>
+  </testcase>
+  <testcase name="CreateApprovalWorkflowItemNullTest" classname="com.immigration.UnitTests" time="0.0"/>
+  <testcase name="CreateReviewWorkflowItemTest" classname="com.immigration.UnitTests" time="0.005">
+    <system-out><![CDATA[Divorce Report Object: {Username: a, Spouses Name: b, Current Status: c}
+ has been added to workflow.
+Divorce Report Object: {Username: d, Spouses Name: e, Current Status: f}
+ has been added to workflow.
+Divorce Report Object: {Username: g, Spouses Name: h, Current Status: i}
+ has been added to workflow.
+Divorce Report Object: {Username: a, Spouses Name: b, Current Status: c}
+ has been removed from workflow.
+Divorce Report Object: {Username: d, Spouses Name: e, Current Status: f}
+ has been removed from workflow.
+Divorce Report Object: {Username: g, Spouses Name: h, Current Status: i}
+ has been removed from workflow.
+]]></system-out>
+  </testcase>
+  <testcase name="CreateReviewWorkflowItemNullTest" classname="com.immigration.UnitTests" time="0.0"/>
+  <testcase name="NoApprovalItemTest" classname="com.immigration.UnitTests" time="0.0"/>
+  <testcase name="NoReviewItemTest" classname="com.immigration.UnitTests" time="0.0"/>
+  <testcase name="ReportCreatedTest" classname="com.immigration.UnitTests" time="0.0"/>
+  <testcase name="GetReportInfoTest" classname="com.immigration.UnitTests" time="0.0"/>
+</testsuite>
